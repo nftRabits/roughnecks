@@ -36,7 +36,7 @@ const Navbar = () => {
                 );
               })}
               <li>
-                <a className="text-secondary border border-secondary px-8 py-3 rounded-md text-base font-bold mx-9 cursor-pointer">
+                <a className="text-secondary whitespace-pre border border-secondary px-8 py-3 rounded-md text-base font-bold mx-9 cursor-pointer">
                   Connect Wallet
                 </a>
               </li>
