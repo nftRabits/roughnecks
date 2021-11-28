@@ -57,16 +57,23 @@ const MobileMenu = () => {
         <div className="flex flex-col pt-10 px-4">
           {links.map((item, index) => {
             return (
-              <span key={index}>
-                <AnchorLink
-                  href={`#${item.url}`}
-                  className="text-xl text-white transition-all hover:text-white py-3.5 border-b border-white"
-                >
+              <span
+                key={index}
+                className="text-xl text-white transition-all hover:text-white py-3.5 border-b border-white"
+              >
+                <AnchorLink href={`#${item.url}`}>
                   {item.name}
                 </AnchorLink>
               </span>
             );
           })}
+
+          <li className={'flex justify-center items-center my-8'}>
+            <a className="text-secondary border border-secondary px-8 py-3 rounded-md text-base font-bold cursor-pointer">
+              Connect Wallet
+            </a>
+          </li>
+
         </div>
       </Drawer>
     </div>

@@ -14,8 +14,8 @@ const Navbar = () => {
               {links.map((item, index) => {
                 return (
                   <li key={index}>
-                    <a>
-                      <AnchorLink href={`#${item.url}`} className="text-white text-base hover:text-white font-bold mx-5 cursor-pointer">
+                    <a className="text-white text-base hover:text-white font-bold mx-5 cursor-pointer">
+                      <AnchorLink href={`#${item.url}`}>
                         {item.name}
                       </AnchorLink>
                     </a>
