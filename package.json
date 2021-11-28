@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "antd": "^4.17.1",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-modern-drawer": "^0.1.1",
+    "react-responsive": "^9.0.0-beta.4",
+    "react-reveal": "^1.2.2",
+    "react-timer-hook": "^3.0.5",
+    "react-vertical-timeline-component": "^3.5.2",
+    "swiper": "6.8.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  }
+}
