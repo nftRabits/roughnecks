@@ -2,8 +2,8 @@ import React from "react";
 import {useTimer} from "react-timer-hook";
 
 function Timer() {
-  const expiryTimestamp = new Date();
-  expiryTimestamp.setSeconds(expiryTimestamp.getSeconds() + 1055000);
+  const expiryTimestamp = new Date('January 11, 2022');
+  // expiryTimestamp.setSeconds(expiryTimestamp.getSeconds() + 1055000);
   const {seconds, minutes, hours, days} = useTimer({
     expiryTimestamp,
     onExpire: () => console.warn("onExpire called")

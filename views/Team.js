@@ -45,27 +45,27 @@ const data = [
     picture: "/images/Rico 1.png"
   },
   {
-    title: "Rico",
+    title: "Chopper",
     role: "Founder",
-    desc: "Head Honcho & Attack Deployment General",
+    desc: "Head Party Planner & Power Drinker",
     picture: "/images/Chopper 1.png"
   },
   {
-    title: "Rico",
-    role: "Founder",
-    desc: "Head Honcho & Attack Deployment General",
+    title: "Rothko",
+    role: "Artist",
+    desc: "Head Visionary & Dreamer",
     picture: "/images/Rothko 1.png"
   },
   {
-    title: "Rico",
-    role: "Founder",
-    desc: "Head Honcho & Attack Deployment General",
+    title: "Mouse",
+    role: "Developer",
+    desc: "Head Mastermind & Stresser",
     picture: "/images/Mouse 1.png"
   },
   {
-    title: "Rico",
-    role: "Founder",
-    desc: "Head Honcho & Attack Deployment General",
+    title: "Brasi",
+    role: "Head Moderator",
+    desc: "Head Doorman & Butt Kicker",
     picture: "/images/Brasi 1.png"
   }
 ];

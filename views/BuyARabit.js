@@ -45,7 +45,7 @@ const BuyARabit = () => {
                   LAUNCH DATE
                 </h4>
                 <p className="text-secondary text-center font-bold text-xl">
-                  15TH DEC 21
+                  11 JAN 22
                 </p>
               </div>
               <div className="mb-5 xs:mb-0">

@@ -5,7 +5,7 @@ const Gamifications = () => {
   return (
     <div className="w-full bg-dark">
       <div className="max-w-7xl mx-auto px-6 pb-28 md:pb-10 pt-28">
-        <MainTitle title="ROUGHNECKS TEAM" />
+        <MainTitle title="GAMIFICATION Franchise Development" />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {data.map((item, index) => {
             return (

@@ -16,7 +16,7 @@ const Mint = () => {
                 MAINDROP
               </h1>
               <p className=" text-grey  text-center sm:text-left text-xs font-semibold mb-8 sm:mb-16">
-                Oct 20, 3:00 est
+                11 JAN 22, 3:00 est
               </p>
               <div className="flex justify-center sm:justify-start">
                 <a className="bg-green text-white hover:text-white rounded-sm cursor-pointer transition-all hover:shadow-2xl px-10 py-3">
