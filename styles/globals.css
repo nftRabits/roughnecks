@@ -11,6 +11,9 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+a{
+  color: white !important;
+}
 .hero {
   background-image: url("/images/heroImageTop 1.png");
   background-position: center;
@@ -169,8 +172,12 @@
   box-shadow: 0px 0px 38px 10px #c41c9f;
   transform: rotate(-45deg);
   top: calc(50% - 8px);
-  right: -8px;
+  left: 563px;
   z-index: 1;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
 }
 
 .container.right::after {
@@ -183,7 +190,7 @@
   width: 169px;
   height: 12px;
   top: calc(50% - 1px);
-  right: 8px;
+  left: 400px;
   background: #fbfaf5;
   box-shadow: 0px 0px 38px 10px #c41c9f;
   z-index: 1;
@@ -201,7 +208,7 @@
 }
 
 .container.left .date {
-  right: -475px;
+  right: 100px;
 }
 
 .container.right .date {
@@ -315,11 +322,6 @@
     display: none;
   }
 }
-
-.ant-collapse-borderless > .ant-collapse-item:last-child, .ant-collapse-borderless > .ant-collapse-item:last-child .ant-collapse-header {
-  border-radius: 12px !important;
-}
-
 @media (max-width: 480px) {
   .timeline::after {
     left: 10px;
@@ -327,7 +329,7 @@
   .container.left .content {
     margin-left: 40px;
   }
-  .container.right .content{
+  .container.right .content {
     margin-left: 40px;
   }
   .container.right {
@@ -348,4 +350,9 @@
     top: 0px;
     margin: 40px 0px 40px 40px;
   }
+}
+
+
+.ant-collapse-borderless > .ant-collapse-item:last-child, .ant-collapse-borderless > .ant-collapse-item:last-child .ant-collapse-header {
+  border-radius: 12px !important;
 }
