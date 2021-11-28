@@ -4,10 +4,10 @@ import MobileMenu from "../components/MobileMenu";
 const Header = () => {
   return (
     <div className="w-full hero">
-     <div className="hidden md:block">
+     <div className="hidden xl:block">
         <Navbar />
       </div>
-      <div className="block md:hidden">
+      <div className="block xl:hidden">
         <MobileMenu />
       </div>
     </div>

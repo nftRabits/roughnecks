@@ -21,6 +21,7 @@ const MobileMenu = () => {
             height={20}
           />
         </div>
+
         <div>
           <ul className="flex justify-between">
             <li className="px-1">
@@ -54,6 +55,7 @@ const MobileMenu = () => {
             height={20}
           />
         </div>
+
         <div className="flex flex-col pt-10 px-4">
           {links.map((item, index) => {
             return (
@@ -67,6 +69,11 @@ const MobileMenu = () => {
               </span>
             );
           })}
+          <li className={'flex justify-center my-8'}>
+            <a className="text-secondary whitespace-pre border border-secondary px-8 py-3 rounded-md text-base font-bold mx-9 cursor-pointer">
+              Connect Wallet
+            </a>
+          </li>
         </div>
       </Drawer>
     </div>
