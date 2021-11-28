@@ -14,8 +14,8 @@ const Navbar = () => {
               {links.map((item, index) => {
                 return (
                   <li key={index}>
-                    <a className="text-white text-base hover:text-white font-bold mx-3 cursor-pointer">
-                      <AnchorLink href={`#${item.url}`}>
+                    <a>
+                      <AnchorLink href={`#${item.url}`} className="text-white text-base hover:text-white font-bold mx-5 cursor-pointer">
                         {item.name}
                       </AnchorLink>
                     </a>
@@ -36,7 +36,7 @@ const Navbar = () => {
                 );
               })}
               <li>
-                <a className="text-secondary whitespace-pre border border-secondary px-8 py-3 rounded-md text-base font-bold mx-9 cursor-pointer">
+                <a className="text-secondary border border-secondary px-8 py-3 rounded-md text-base font-bold mx-9 cursor-pointer">
                   Connect Wallet
                 </a>
               </li>

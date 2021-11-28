@@ -2,7 +2,7 @@ import React from "react";
 import MainTitle from "../components/MainTitle";
 const Roadmap = () => {
   return (
-    <div className="bg-primary w-full">
+    <div className="bg-primary w-full overflow-hidden">
       <div className="pt-20">
         <MainTitle title="ROAD MAP" />
       </div>
