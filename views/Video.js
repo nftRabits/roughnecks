@@ -4,7 +4,7 @@ const Video = () => {
   return (
     <div>
       <div className="w-ful bg-primary relative">
-        <video controls={true} autoPlay={false} loop={true} muted={false} id="myVideo">
+        <video preload={'auto'} controls={true} autoPlay={false} loop={true} muted={false} id="myVideo">
           <source src="/images/Roughneck Origin.mp4" type="video/mp4" />
         </video>
         {/*<div className="overlay">*/}

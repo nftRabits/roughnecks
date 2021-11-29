@@ -44,7 +44,7 @@ const data = [
     picture: "/images/Ethereum 1.png"
   },
   {
-    title: "MESSIVE NFT RAFFLE",
+    title: "MASSIVE NFT RAFFLE",
     description:
       "For the first 8 weeks post mint and part of our pub quizzes nights, we will also be holding a raffle for all the members that joined in the fun & giving away NFT airdrops.",
     picture: "/images/Raffle Tickets 1.png"
