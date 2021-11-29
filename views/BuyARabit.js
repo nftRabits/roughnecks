@@ -9,7 +9,7 @@ const BuyARabit = () => {
         <div className="bg-primary w-full">
             <div className="max-w-7xl mx-auto px-4 py-20">
                 <MainTitle title="BUY A RABBIT"/>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-14">
+                <div className="overflow-hidden grid grid-cols-1 md:grid-cols-2 gap-14">
                     <div>
 
                         <Fade bottom={true}>
@@ -78,7 +78,7 @@ const BuyARabit = () => {
                     <Swing>
 
                     <div className="flex justify-center md:justify-end">
-                        <img src="/images/RR Final 1.png" alt=""/>
+                        <img className={'shake'} src="/images/RR Final 1.png" alt=""/>
                     </div>
                     </Swing>
                 </div>

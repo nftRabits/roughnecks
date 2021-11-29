@@ -31,7 +31,7 @@ const Carusel = () => {
         {data.map((item, index) => {
           return (
             <SwiperSlide key={index}>
-              <img src={item.sliderImage} alt="" className="w-full " />
+              <img src={item.sliderImage} alt="" className="w-full shake " />
             </SwiperSlide>
           );
         })}

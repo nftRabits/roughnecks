@@ -11,7 +11,7 @@ const Gamifications = () => {
             return (
               <div key={index}>
                 <div className="flex justify-center">
-                  <img src={item.picture} alt="" className="w-60 h-60 " />
+                  <img src={item.picture} alt="" className="w-60 h-60 zoom " />
                 </div>
                 <h2 className="text-white text-2xl md:text-3xl font-bold pb-4 text-center">
                   {item.title}

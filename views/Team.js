@@ -12,7 +12,7 @@ const Team = () => {
               return (
                 <div key={index} className=" mx-16 mb-20">
                   <div className="flex justify-center">
-                  <img src={item.picture} alt={item.title} />
+                  <img className={'zoom'} src={item.picture} alt={item.title} />
                   </div>
                   <div style={{
                     height: '11rem'

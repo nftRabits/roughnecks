@@ -35,7 +35,7 @@ const Roadmap = () => {
             </div>
             <div className="container right">
               <div className="date">
-                <img src="/images/Group 139.png" alt="" />
+                <img className={'zoom'} src="/images/Group 139.png" alt="" />
               </div>
 
               <div className="content py-8 px-4">
@@ -65,7 +65,7 @@ const Roadmap = () => {
             </div>
             <div className="container left">
               <div className="date">
-                <img src="/images/ethereum-gold-2-NOshadow.png" alt="" />
+                <img className={'zoom'} src="/images/ethereum-gold-2-NOshadow.png" alt="" />
               </div>
 
               <div className="content py-8 px-4">
@@ -91,7 +91,7 @@ const Roadmap = () => {
             </div>
             <div className="container right">
               <div className="date">
-                <img src="/images/Tesla-Model-3 (1).png" alt="" />
+                <img className={'zoom'} src="/images/Tesla-Model-3 (1).png" alt="" />
               </div>
 
               <div className="content py-8 px-4">
@@ -120,7 +120,7 @@ const Roadmap = () => {
             </div>
             <div className="container left">
               <div className="date">
-                <img src="/images/TS.png" alt="" />
+                <img className={'zoom'} src="/images/TS.png" alt="" />
               </div>
               <div className="content py-8 px-4">
                 <h3 className="text-white text-center text-2xl font-bold mb-5">
@@ -148,7 +148,7 @@ const Roadmap = () => {
             </div>
             <div className="container right">
               <div className="date">
-                <img src="/images/Tx.png" alt="" />
+                <img className={'zoom'} src="/images/Tx.png" alt="" />
               </div>
 
               <div className="content py-8 px-4">
