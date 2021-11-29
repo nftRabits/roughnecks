@@ -38,7 +38,7 @@ const data = [
     picture: "/images/Pub Quiz 1.png"
   },
   {
-    title: "INSANE $5K ETHERIUM",
+    title: "INSANE $5K ETHEREUM",
     description:
       "For the first 8 weeks of our Sunday night pub quizzes there will be a total $5000 worth of ETH up for grabs. With 5 lucky prize winners per quiz night.      ",
     picture: "/images/Ethereum 1.png"
