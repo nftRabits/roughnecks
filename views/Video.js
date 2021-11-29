@@ -11,6 +11,7 @@ const Video = () => {
           <div className='player-wrapper'>
               <ReactPlayer
                   playing
+                  autoPlay={true}
                   controls={true}
                   light={'/thumbnail.png'}
                   className='react-player'
