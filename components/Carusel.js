@@ -44,18 +44,35 @@ export default Carusel;
 
 const data = [
   {
-    sliderImage: "/images/Rico 1.png"
+    sliderImage: "/slider/1.png"
+  },{
+    sliderImage: "/slider/2.png"
+  },{
+    sliderImage: "/slider/3.png"
+  },{
+    sliderImage: "/slider/4.png"
+  },{
+    sliderImage: "/slider/5.png"
+  },{
+    sliderImage: "/slider/6.png"
+  },{
+    sliderImage: "/slider/7.png"
+  },{
+    sliderImage: "/slider/8.png"
+  },{
+    sliderImage: "/slider/9.png"
+  },{
+    sliderImage: "/slider/10.png"
+  },{
+    sliderImage: "/slider/11.png"
+  },{
+    sliderImage: "/slider/12.png"
+  },{
+    sliderImage: "/slider/13.png"
+  },{
+    sliderImage: "/slider/14.png"
+  },{
+    sliderImage: "/slider/15.png"
   },
-  {
-    sliderImage: "/images/Chopper 1.png"
-  },
-  {
-    sliderImage: "/images/Rothko 1.png"
-  },
-  {
-    sliderImage: "/images/Mouse 1.png"
-  },
-  {
-    sliderImage: "/images/Brasi 1.png"
-  }
+
 ];
