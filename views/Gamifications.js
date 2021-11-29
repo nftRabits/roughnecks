@@ -1,5 +1,7 @@
 import React from "react";
 import MainTitle from "../components/MainTitle";
+import Fade from 'react-reveal/Fade';
+
 
 const Gamifications = () => {
   return (
@@ -13,12 +15,18 @@ const Gamifications = () => {
                 <div className="flex justify-center">
                   <img src={item.picture} alt="" className="w-60 h-60 zoom " />
                 </div>
+                <Fade bottom>
+
                 <h2 className="text-white text-2xl md:text-3xl font-bold pb-4 text-center">
                   {item.title}
                 </h2>
+                </Fade>
+                <Fade bottom>
+
                 <p className="text-white text-sm md:text-base font-semibold pb-0 md:pb-24 text-center">
                   {item.description}
                 </p>
+                </Fade>
               </div>
             );
           })}

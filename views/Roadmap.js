@@ -1,5 +1,7 @@
 import React from "react";
 import MainTitle from "../components/MainTitle";
+import Slide from 'react-reveal/Slide'
+
 const Roadmap = () => {
   return (
     <div className="bg-primary w-full">
@@ -8,7 +10,8 @@ const Roadmap = () => {
       </div>
       <div className="roadmap-bg overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 py-20">
-          <div className="timeline">
+          <div className="timeline overflow-hidden">
+            <Slide left>
             <div className="container left">
               <div className="date" />
 
@@ -33,6 +36,8 @@ const Roadmap = () => {
                 </h3>
               </div>
             </div>
+            </Slide>
+            <Slide right>
             <div className="container right">
               <div className="date">
                 <img className={'zoom'} src="/images/Group 139.png" alt="" />
@@ -63,6 +68,8 @@ const Roadmap = () => {
                 </h3>
               </div>
             </div>
+            </Slide>
+            <Slide left>
             <div className="container left">
               <div className="date">
                 <img className={'zoom'} src="/images/ethereum-gold-2-NOshadow.png" alt="" />
@@ -89,6 +96,8 @@ const Roadmap = () => {
                 </h3>
               </div>
             </div>
+            </Slide>
+            <Slide right>
             <div className="container right">
               <div className="date">
                 <img className={'zoom'} src="/images/Tesla-Model-3 (1).png" alt="" />
@@ -118,6 +127,8 @@ const Roadmap = () => {
                 </h3>
               </div>
             </div>
+            </Slide>
+            <Slide left>
             <div className="container left">
               <div className="date">
                 <img className={'zoom'} src="/images/TS.png" alt="" />
@@ -146,6 +157,8 @@ const Roadmap = () => {
                 </h3>
               </div>
             </div>
+            </Slide>
+            <Slide right>
             <div className="container right">
               <div className="date">
                 <img className={'zoom'} src="/images/Tx.png" alt="" />
@@ -175,6 +188,7 @@ const Roadmap = () => {
                 </h3>
               </div>
             </div>
+            </Slide>
           </div>
         </div>
       </div>
