@@ -14,7 +14,7 @@ const Team = () => {
                   <div className="flex justify-center">
                   <img src={item.picture} alt={item.title} />
                   </div>
-                  <div className="bg-dark w-60 rounded-xl px-2 pt-3">
+                  <div className="bg-dark w-60 h-40 rounded-xl px-2 pt-3">
                     <h1 className="text-4xl font-extrabold text-white pb-1 text-center">
                       {item.title}
                     </h1>
