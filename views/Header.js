@@ -11,7 +11,9 @@ const Header = () => {
                     <Navbar/>
                 </Fade>
             </div>
-            <div className="block fixed w-full top-0 left-0 xl:hidden">
+            <div style={{
+                zIndex: 999,
+            }} className="block fixed w-full top-0 left-0 xl:hidden">
                 <MobileMenu/>
             </div>
         </div>
