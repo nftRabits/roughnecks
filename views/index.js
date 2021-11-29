@@ -13,10 +13,15 @@ import Mint from "./Mint";
 import Roadmap from "./Roadmap";
 import Team from "./Team";
 import Video from "./Video";
+
+
 const Index = () => {
   return (
     <div>
+
+
       <Header />
+
       <div id="Rabbit">
         <BuyARabit />
       </div>

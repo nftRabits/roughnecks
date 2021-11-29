@@ -1,8 +1,9 @@
 import React from "react";
+import Fade from 'react-reveal/Fade';
 
 const MainTitle = ({title}) => {
   return (
-    <div>
+    <Fade cascade={true} bottom={true}>
       <div className="flex justify-center mb-20">
         <div className="flex justify-between">
         <div className=" hidden md:flex">
@@ -18,7 +19,7 @@ const MainTitle = ({title}) => {
           </div>
         </div>
       </div>
-    </div>
+    </Fade>
   );
 };
 
