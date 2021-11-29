@@ -58,6 +58,7 @@ const MobileMenu = () => {
           {links.map((item, index) => {
             return (
               <span
+                  onClick={toggleDrawer}
                 key={index}
                 className="text-xl text-white transition-all hover:text-white py-3.5 border-b border-white"
               >
