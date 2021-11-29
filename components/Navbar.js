@@ -81,11 +81,11 @@ const socialLinks = [
   {
     id: 1,
     socialIcon: "/images/discord.png",
-    url: "https://discord.gg/7f465dkQve"
+    url: "https://discord.gg/r45avjtz"
   },
   {
     id: 2,
     socialIcon: "/images/twitter.png",
-    url: "/"
+    url: "https://twitter.com/RoughneckRabbit"
   }
 ];
