@@ -10,7 +10,7 @@ const Video = () => {
         {/*</video>*/}
           <div className='player-wrapper'>
               <ReactPlayer
-                  controls={true}
+                  // controls={true}
                   light={'/thumbnail.png'}
                   className='react-player'
                   url='https://res.cloudinary.com/afzaal1721/video/upload/v1638188675/Roughneck_Origin_hc4amh.mp4'
