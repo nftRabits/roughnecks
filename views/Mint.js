@@ -63,6 +63,13 @@ const Mint = () => {
           <div className="flex flex-col sm:flex-row justify-center sm:justify-between">
             <div className="mb-8 sm:mb-0">
               <h1 className="text-3xl text-off text-center sm:text-left font-semibold">Pre Sale</h1>
+
+              <div className="flex justify-center mt-8 mb:16 sm:justify-start">
+                <a className="bg-green text-white hover:text-white rounded-sm cursor-pointer transition-all hover:shadow-2xl px-10 py-3">
+                  Live Soon
+                </a>
+              </div>
+
             </div>
             <div className=" w-full max-w-md">
               <div className="flex flex-col xs:flex-row justify-center">
