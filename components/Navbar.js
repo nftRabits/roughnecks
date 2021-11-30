@@ -81,7 +81,7 @@ const socialLinks = [
   {
     id: 1,
     socialIcon: "/images/discord.png",
-    url: "https://discord.gg/r45avjtz"
+    url: "https://discord.gg/rH9y9yDD9X"
   },
   {
     id: 2,

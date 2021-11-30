@@ -13,7 +13,7 @@ const JoinDiscord = () => {
           <div className=" hidden md:flex self-center">
             <img src="/images/arrowbig.png" alt="" className="w-full" />
           </div>
-          <a href={'https://discord.gg/r45avjtz'} target={'_blank'} rel={'noreferrer'} className="flex self-center">
+          <a href={'https://discord.gg/rH9y9yDD9X'} target={'_blank'} rel={'noreferrer'} className="flex self-center">
             <img src="/images/discordb.png" alt="" className="w-40" />
           </a>
         </div>
