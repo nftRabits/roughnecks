@@ -15,7 +15,7 @@ const Mint = () => {
                         <div className="mb-16 sm:mb-0">
                             <Fade bottom>
                                 <h1 className="text-3xl text-off text-center sm:text-left font-semibold">
-                                    MAINDROP
+                                    MAIN DROP
                                 </h1>
                             </Fade>
                             <Fade bottom>
