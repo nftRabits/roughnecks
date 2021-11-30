@@ -20,7 +20,7 @@ const About = () => {
 
             <Fade bottom>
             <p className=" text-base md:text-lg text-white font-semibold text-center pb-5">
-              Wild times full of complete mayhem, epic altications, huge
+              Wild times full of complete mayhem, epic alterations, huge
               winnings that have so many times ended up in the strangest,
               craziest & most unusual places you could ever imagine.. Know what
               I'm talking about??

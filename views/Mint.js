@@ -20,7 +20,7 @@ const Mint = () => {
                             </Fade>
                             <Fade bottom>
                                 <p className=" text-grey  text-center sm:text-left text-xs font-semibold mb-8 sm:mb-16">
-                                    11 JAN 22, 3:00 est
+                                    11 JAN 22, 3:00 EST
                                 </p>
                             </Fade>
                             <Fade bottom>

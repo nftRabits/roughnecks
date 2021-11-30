@@ -78,7 +78,7 @@ const generalQuestion = [
     },
     {
         id: 3,
-        title: "3. Is there A whitelist? How do I get on it?",
+        title: "3. Is there a whitelist? How do I get on it?",
         description: `Yes. Join the Roughneck Rabbit discord for full details on the white list opportunities.`
     },
     {
@@ -89,7 +89,7 @@ const generalQuestion = [
     {
         id: 5,
         title: "5. How to mint?",
-        description: `In order to mint, you will have to wait till our launch day and you need to have a Etheruim supporting wallet. You will need to fund your wallet, connect said wallet to page, click mint, approve and wait to receive your Roughneck Rabbit.`
+        description: `In order to mint, you will have to wait till our launch day and you need to have a Ethereum supporting wallet. You will need to fund your wallet, connect said wallet to page, click mint, approve and wait to receive your Roughneck Rabbit.`
     },
     {
         id: 6,

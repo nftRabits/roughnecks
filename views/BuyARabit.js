@@ -66,7 +66,7 @@ const BuyARabit = () => {
                             </div>
                             <div className="mb-5 xs:mb-0">
                                 <h4 className="text-sm text-center font-semibold text-grey pb-1">
-                                    SECONDARY MARKERT
+                                    SECONDARY MARKET
                                 </h4>
                                 <p className="text-white text-center font-bold text-2xl">
                                     OpenSea
