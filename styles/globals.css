@@ -422,3 +422,8 @@ a{
   background: rgba(0, 0, 0, 0.4);
   z-index: 999;
 }
+
+.newsletter-input {
+  border: 2px solid #F45D96;
+  box-shadow: 0px 0px 19px rgb(244 93 151 / 50%);
+}

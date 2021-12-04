@@ -46,7 +46,7 @@ const data = [
   {
     sliderImage: "/slider/1.png"
   },{
-    sliderImage: "/slider/2.png"
+    sliderImage: "/slider/2.jpg"
   },{
     sliderImage: "/slider/3.png"
   },{
