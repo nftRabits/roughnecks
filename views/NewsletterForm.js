@@ -49,8 +49,9 @@ const NewsletterForm = ({status, message, className, style, onSubmitted}) => {
                         )}
                         {status === "success" && (
                             <div
-                                style={{color: "green"}}
-                                dangerouslySetInnerHTML={{__html: message}}
+                                className={'text-secondary'}
+                                // style={{color: "green"}}
+                                dangerouslySetInnerHTML={{__html: 'Thanks for your whitelist registration, you will be updated when the pre-sale is open.'}}
                             />
                         )}
                     </div>
